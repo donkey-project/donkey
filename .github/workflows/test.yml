@@ -1,0 +1,79 @@
+name: Testing
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test-instrumentation:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Set up Python ${{ matrix.python-version }}
+        run: uv python install ${{ matrix.python-version }}
+
+      - name: Install dependencies for donkey-instrumentation
+        working-directory: ./donkey-instrumentation
+        run: uv sync --extra dev
+
+      - name: Run tests for donkey-instrumentation
+        working-directory: ./donkey-instrumentation
+        run: uv run pytest -v --tb=short
+
+  test-toolkit:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Set up Python ${{ matrix.python-version }}
+        run: uv python install ${{ matrix.python-version }}
+
+      - name: Install dependencies for donkey-toolkit
+        working-directory: ./donkey-toolkit
+        run: uv sync --extra dev
+
+      - name: Run tests for donkey-toolkit
+        working-directory: ./donkey-toolkit
+        run: uv run pytest -v --tb=short
+
+  # test-core:
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     fail-fast: false
+  #     matrix:
+  #       python-version: ["3.11", "3.12", "3.13"]
+  #   steps:
+  #     - name: Checkout code
+  #       uses: actions/checkout@v4
+
+  #     - name: Install uv
+  #       uses: astral-sh/setup-uv@v6
+
+  #     - name: Set up Python ${{ matrix.python-version }}
+  #       run: uv python install ${{ matrix.python-version }}
+
+  #     - name: Install dependencies for donkey-core
+  #       working-directory: ./donkey-core
+  #       run: uv sync --extra dev
+
+  #     - name: Run tests for donkey-core
+  #       working-directory: ./donkey-core
+  #       run: uv run pytest -v --tb=short

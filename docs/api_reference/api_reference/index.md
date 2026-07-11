@@ -37,13 +37,14 @@ For production deployments, we recommend installing only the core package plus t
     $ uv add donkey-llms-*
     $ uv add donkey-vector-stores-*
     ```
+<small>
+Installing individual packages instead of the full bundle keeps your environment lean:
 
-> Installing individual packages instead of the full bundle keeps your environment lean:
-> 
-> - **Smaller footprint** — Fewer dependencies means smaller Docker images and faster cold starts.
-> - **Fewer conflicts** — Avoid pulling in transitive dependencies from integrations you never use.
-> - **Security surface** — Less third-party code to audit, patch, and monitor for vulnerabilities.
-> - **Predictable upgrades** — Control exactly which integrations get updated and when.
+- **Smaller footprint** — Fewer dependencies means smaller Docker images and faster cold starts.
+- **Fewer conflicts** — Avoid pulling in transitive dependencies from integrations you never use. 
+- **Security surface** — Less third-party code to audit, patch, and monitor for vulnerabilities.
+- **Predictable upgrades** — Control exactly which integrations get updated and when.
+</small>
 
 ## ✨ Highlight features
 

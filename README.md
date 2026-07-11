@@ -1,4 +1,5 @@
 <div align="center">
+  <img alt="Donkey Logo" src=".github/images/logo-light.png" width="55%">
   <p><strong>Build production-ready AI applications with modular, composable components.</strong></p>
 </div>
 

@@ -38,6 +38,13 @@ For production deployments, we recommend installing only the core package plus t
     $ uv add donkey-vector-stores-*
     ```
 
+Installing individual packages instead of the full bundle keeps your environment lean:
+
+- **Smaller footprint** — fewer dependencies means smaller Docker images and faster cold starts.
+- **Fewer conflicts** — avoid pulling in transitive dependencies from integrations you never use.
+- **Tighter security surface** — less third-party code to audit, patch, and monitor for vulnerabilities.
+- **Predictable upgrades** — you control exactly which integrations get updated and when.
+
 ## ✨ Highlight features
 
 - **Modular Architecture** — Pick only the components you need. Each integration is its own installable package.

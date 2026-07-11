@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Donkey Logo" src="_static/assets/logo-light.png" width="55%">
+  <img alt="Donkey Logo" src="../_static/assets/logo-light-workflows.png" width="55%">
   <p><strong>High performance and flexible event-driven workflow engine, designed to build complex tasks.</strong></p>
 </div>
 

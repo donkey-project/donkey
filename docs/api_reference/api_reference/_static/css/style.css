@@ -23,8 +23,8 @@ p {
 }
 
 /* Hides the site name in the header */
-.md-header__title {
-  display: none;
+.md-header__title .md-header__ellipsis {
+  visibility: hidden;
 }
 
 /* Python code blocks — dark style (excludes doc signatures) */

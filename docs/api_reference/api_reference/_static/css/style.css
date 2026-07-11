@@ -22,6 +22,11 @@ p {
     font-size: 13px;
 }
 
+/* Hides the site name in the header */
+.md-header__title {
+  display: none;
+}
+
 /* Python code blocks — dark style (excludes doc signatures) */
 .language-python.highlight:not(.doc-signature) {
     --md-code-bg-color: #0d0d0d;

@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://donkey-project.github.io/donkey"><strong>Documentation</strong></a> ·
+  <a href="https://donkey-project.github.io/donkey" target="_blank"><strong>Documentation</strong></a> ·
   <a href="https://github.com/donkey-project/donkey/issues/new?template=bug-report.yml"><strong>Report Bug</strong></a> ·
   <a href="https://github.com/donkey-project/donkey/issues/new?template=feature-request.yml"><strong>Request Feature</strong></a>
 </p>

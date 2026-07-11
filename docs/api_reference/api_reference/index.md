@@ -1,6 +1,7 @@
-# Donkey
-
-Build production-ready AI applications with modular, composable components.
+<div align="center">
+  <img alt="Donkey Logo" src="docs/api_reference/api_reference/_static/assets/logo-light.png" width="55%">
+  <p><strong>Build production-ready AI applications with modular, composable components.</strong></p>
+</div>
 
 ---
 

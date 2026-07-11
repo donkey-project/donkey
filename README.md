@@ -16,17 +16,16 @@
   <a href="https://github.com/donkey-project/donkey/issues/new?template=feature-request.yml"><strong>Request Feature</strong></a>
 </p>
 
-## Key Features
+## ✨ Highlight features
 
-- 🏗️ **Modular Architecture** — Pick only the components you need. Each integration is its own installable package.
-- ⚡ **Async-First Workflows** — Event-driven workflow engine with fan-out/fan-in, shared state, and built-in HTTP server.
-- 🔌 **Enterprise Integrations** — First-class support for watsonx.ai, Elasticsearch, Chroma, Hugging Face, and more.
-- 📊 **Built-in Observability** — Instrument your pipelines with OpenTelemetry-compatible tracing and custom metrics.
-- 🛡️ **Guardrails** — Apply input/output guardrails to keep your AI applications safe and compliant.
-- 📄 **Document Pipelines** — Load, chunk, embed, and store documents with prebuilt ingestion workflows.
+- **Modular Architecture** — Pick only the components you need. Each integration is its own installable package.
+- **Enterprise Integrations** — First-class support for watsonx.ai, Elasticsearch, Chroma, Hugging Face, and more.
+- **Built-in Observability** — Instrument your pipelines with OpenTelemetry-compatible tracing and custom metrics.
+- **Guardrails** — Apply input/output guardrails to keep your AI applications safe and compliant.
+- **Async-First Workflows** — Event-driven workflow engine with fan-out/fan-in, shared state, and built-in HTTP server.
 
 
-## Installation
+## ⚡ Quickstart
 
 ```bash
 pip install donkeyai
@@ -38,7 +37,7 @@ With [uv](https://docs.astral.sh/uv/):
 uv add donkeyai
 ```
 
-## Contributing
+## 👋 Contributing
 
 We welcome contributions! Please see our [issue templates](https://github.com/donkey-project/donkey/issues/new/choose) to get started.
 

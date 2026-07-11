@@ -4,7 +4,8 @@ Build production-ready AI applications with modular, composable components.
 
 ---
 
-## Installation
+## ⚡ Starter
+The quickest way to get up and running is with the starter bundle, which includes the core framework plus our most popular integrations:
 
 === "pip"
 
@@ -18,14 +19,36 @@ Build production-ready AI applications with modular, composable components.
     $ uv add donkeyai
     ```
 
-## Key Features
+## 🔧 Advanced (recommended for production)
+For production deployments, we recommend installing only the core package plus the specific integrations you actually use:
 
-- 🏗️ **Modular Architecture** — Pick only the components you need. Each integration is its own installable package.
-- ⚡ **Async-First Workflows** — Event-driven workflow engine with fan-out/fan-in, shared state, and built-in HTTP server.
-- 🔌 **Enterprise Integrations** — First-class support for watsonx.ai, Elasticsearch, Chroma, Hugging Face, and more.
-- 📊 **Built-in Observability** — Instrument your pipelines with OpenTelemetry-compatible tracing and custom metrics.
-- 🛡️ **Guardrails** — Apply input/output guardrails to keep your AI applications safe and compliant.
-- 📄 **Document Pipelines** — Load, chunk, embed, and store documents with prebuilt ingestion workflows.
+=== "pip"
+
+    ```bash
+    $ pip install donkey-core
+    $ pip install donkey-llms-*
+    $ pip install donkey-vector-stores-*
+    ```
+
+=== "uv"
+
+    ```bash
+    $ uv add donkey-core
+    $ uv add donkey-llms-*
+    $ uv add donkey-vector-stores-*
+    ```
+
+## ✨ Highlight features
+
+- **Modular Architecture** — Pick only the components you need. Each integration is its own installable package.
+- **Enterprise Integrations** — First-class support for watsonx.ai, Elasticsearch, Chroma, Hugging Face, and more.
+- **Built-in Observability** — Instrument your pipelines with OpenTelemetry-compatible tracing and custom metrics.
+- **Guardrails** — Apply input/output guardrails to keep your AI applications safe and compliant.
+- **Async-First Workflows** — Event-driven workflow engine with fan-out/fan-in, shared state, and built-in HTTP server.
+
+## 👋 Contributing
+
+We welcome contributions! Please see our [issue templates](https://github.com/donkey-project/donkey/issues/new/choose) to get started.
 
 ## License
 

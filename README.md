@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Donkey Logo" src="docs/api_reference/api_reference/_static/assets/favicon.png" width="15%">
+  <img alt="Donkey Logo" src="docs/api_reference/api_reference/_static/assets/favicon.png" width="17%">
   <p><strong>Build production-ready AI applications with modular, composable components.</strong></p>
 </div>
 

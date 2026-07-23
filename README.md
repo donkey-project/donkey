@@ -25,7 +25,7 @@
 - **Async-First Workflows** — Event-driven workflow engine with fan-out/fan-in, shared state, and built-in HTTP server.
 
 
-## ⚡ Quickstart
+## 📦 Installation
 
 ```bash
 pip install donkeyai

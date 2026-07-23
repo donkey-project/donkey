@@ -1,21 +1,18 @@
-<div align="center">
-  <img alt="Donkey Logo" src="docs/api_reference/api_reference/_static/assets/favicon.png" width="17%">
-  <p><strong>Build production-ready AI applications with modular, composable components.</strong></p>
-</div>
+<img alt="Donkey Logo" src="docs/api_reference/api_reference/_static/assets/favicon.png" width="32px" align="left" style="margin-right:10px">
 
-<p align="center">
-  <a href="https://github.com/donkey-project/donkey/actions/workflows/test.yml"><img src="https://github.com/donkey-project/donkey/actions/workflows/test.yml/badge.svg" alt="CI"></a>
-  <a href="https://pypi.org/project/donkeyai/"><img src="https://img.shields.io/pypi/v/donkeyai?style=flat&colorA=black&colorB=black" alt="PyPI"></a>
-  <a href="https://pepy.tech/projects/donkeyai"><img src="https://static.pepy.tech/personalized-badge/donkeyai?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=BLACK" alt="Downloads"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/pypi/l/donkeyai?style=flat&colorA=black&colorB=black" alt="License"></a>
-  <a href="https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff"></a>
-</p>
+# Donkey
 
-<p align="center">
-  <a href="https://donkey-project.github.io/donkey"><strong>Documentation</strong></a> ·
-  <a href="https://github.com/donkey-project/donkey/issues/new?template=bug-report.yml"><strong>Report Bug</strong></a> ·
-  <a href="https://github.com/donkey-project/donkey/issues/new?template=feature-request.yml"><strong>Request Feature</strong></a>
-</p>
+**Build production-ready AI applications with modular, composable components.**
+
+<a href="https://github.com/donkey-project/donkey/actions/workflows/test.yml"><img src="https://github.com/donkey-project/donkey/actions/workflows/test.yml/badge.svg" alt="CI"></a>
+<a href="https://pypi.org/project/donkeyai/"><img src="https://img.shields.io/pypi/v/donkeyai?style=flat&colorA=black&colorB=black" alt="PyPI"></a>
+<a href="https://pepy.tech/projects/donkeyai"><img src="https://static.pepy.tech/personalized-badge/donkeyai?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=BLACK" alt="Downloads"></a>
+<a href="LICENSE"><img src="https://img.shields.io/pypi/l/donkeyai?style=flat&colorA=black&colorB=black" alt="License"></a>
+<a href="https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff"></a>
+
+<a href="https://donkey-project.github.io/donkey" target="_blank"><strong>Documentation</strong></a> ·
+<a href="https://github.com/donkey-project/donkey/issues/new?template=bug-report.yml"><strong>Report Bug</strong></a> ·
+<a href="https://github.com/donkey-project/donkey/issues/new?template=feature-request.yml"><strong>Request Feature</strong></a>
 
 ## ✨ Highlight features
 

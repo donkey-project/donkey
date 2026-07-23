@@ -85,7 +85,7 @@ theme:
   name: material
   custom_dir: overrides
   favicon: _static/assets/favicon.png
-  logo: _static/assets/logo-light.png
+  logo: _static/assets/favicon.png
   palette:
     - scheme: default
       media: "(prefers-color-scheme: light)"

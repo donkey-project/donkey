@@ -1,9 +1,9 @@
-<div align="center">
-  <img alt="Donkey Logo" src="_static/assets/logo-light.png" width="55%">
-  <p><strong>Build production-ready AI applications with modular, composable components.</strong></p>
-</div>
+<img alt="Donkey Logo" src="_static/assets/favicon.png" width="32px" align="left" style="margin-right:10px">
 
----
+# Donkey
+
+**Build production-ready AI applications with modular, composable components.**
+
 
 ## ⚡ Starter
 The quickest way to get up and running is with the starter bundle, which includes the core framework plus our most popular integrations:

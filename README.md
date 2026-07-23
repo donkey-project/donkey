@@ -1,6 +1,6 @@
 <div align="center">
   <img alt="Donkey Logo" src="docs/api_reference/api_reference/_static/assets/favicon.png" width="80px">
-  <h1>Donkey</h1>
+  <h2>Donkey Framework</h2>
   <p><strong>Build production-ready AI applications with modular, composable components.</strong></p>
 
   <a href="https://github.com/donkey-project/donkey/actions/workflows/test.yml"><img src="https://github.com/donkey-project/donkey/actions/workflows/test.yml/badge.svg" alt="CI"></a>

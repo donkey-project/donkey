@@ -1,6 +1,6 @@
  <div align="center">
  <img alt="Donkey Logo" src="_static/assets/favicon.png" width="80px">
-  <h1>Donkey</h1>
+  <h2>Donkey Framework</h2>
   <p><strong>Build production-ready AI applications with modular, composable components.</strong></p>
 </div>
 

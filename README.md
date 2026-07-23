@@ -1,6 +1,9 @@
-<img alt="Donkey Logo" src="docs/api_reference/api_reference/_static/assets/favicon.png" width="32px" align="left" style="margin-right:10px">
-
-# Donkey
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img alt="Donkey Logo" src="docs/api_reference/api_reference/_static/assets/favicon.png" width="48px"></td>
+    <td><h1>Donkey</h1></td>
+  </tr>
+</table>
 
 **Build production-ready AI applications with modular, composable components.**
 
